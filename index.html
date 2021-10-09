@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reserv</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <a class="header__logo" href=""><img src="./img/Group.svg" alt="Интернет аптека"></a>
+            <a class="header__back" href="">Вернуться к покупкам</a>
+
+            <div class="header__contacts">
+                <span class="contacts__tell">+7 (4842) <strong>56-27-88</strong></span>
+                <a class="contacts__back-call" href="">Заказать звонок</a>
+                <p class="contacts__info">Круглосуточная горячая линия</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="container section-order">
+            <h1 class="section-heading">Оформление заказа</h1>
+            <div class="order-container">
+                <div class="column-left">
+                    <h2 class="form-heading">Укажите контактные данные</h2>
+                    <form class="сontact-details" action="" method="post">
+                        <div class="form-element">
+                            <div class="label" for="name">Имя</div>
+                            <input class="input-form-сontact" type="text" id="name" name="name" placeholder="Владимир">
+                        </div>
+
+                        <div class="form-element">
+                            <div class="label" for="surname">Фамилия</div>
+                            <input class="input-form-сontact" type="text" id="surname" name="surname" placeholder="Владимир">
+                        </div>
+
+                        <div class="form-element">
+                            <div class="label" for="email">Электронная почта</div>
+                            <input class="input-form-сontact" type="text" id="email" name="email" placeholder="helpme@test.ru">
+                        </div>
+
+                        <div class="form-element">
+                            <div class="label" for="phone">Телфон <span class="red-star">*</span></div>
+                            <input class="input-form-сontact" type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}" placeholder="+7 (___) ___-__-__" required>
+                        </div>
+
+                        <div class="form-element">
+                            <div class="label" for="comment">Комментарий к заказу</div>
+                            <textarea name="comment" class="textarea-form-comment" cols="30" rows="10" placeholder="Если хотите что-либо добавить"></textarea>
+                        </div>
+
+                        <div class="form-offer-nda">
+                            <p class="offer">Нажимая на кнопку вы соглашаетесь с условиями <a class="offer-link" href="">оферты</a></p>
+                            <p class="nda">Мы не разглашаем личные данные своих клиентов. Ваша информация будет использована только для бронирования заказов.</p>
+                        </div>
+
+                        <div class="form-btn">
+                            <button type="submit" class="btn btn-form">Отправить заказ</button>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="column-right">
+                    <div class="column-right-container">
+                        <div class="delivery">
+                            <h3 class="delivery-title">Самовывоз из аптеки</h3>
+                            <div class="delivery-adress">
+                                <span>Аптека №2, ул. Театральная, д. 34</span>
+                            </div>
+                            <div class="delivery-price">
+                                Стоимость: бесплатно
+                            </div>
+                        </div>
+
+                        <div class="basket">
+                            <h3 class="basket-title">Товары в заказе</h3>
+                            <div class="product">
+                                <div class="product-title">
+                                    Полидекса с фенилэфрином спрей наз. 15мл №1 </div>
+                                <div class="product-count">
+                                    1 шт
+                                </div>
+                                <div class="product-price">
+                                    138 руб. </div>
+                            </div>
+                            <div class="product">
+                                <div class="product-title">
+                                    Полидекса с фенилэфрином спрей наз. 15мл №1 </div>
+                                <div class="product-count">
+                                    1 шт
+                                </div>
+                                <div class="product-price">
+                                    138 руб. </div>
+                            </div>
+                        </div>
+
+                        <div class="total">
+                            Итого: 1318 руб.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
